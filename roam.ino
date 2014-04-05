@@ -9,7 +9,7 @@ boolean alarmHIGH = true;
 unsigned long lastAlarmTime;
 
 unsigned long lastMessageTime;
-const unsigned long disconnectTimeout = 1000 // ms
+const unsigned long disconnectTimeout = 1000; // ms
 
 volatile boolean pressActive = false; 
 
@@ -39,7 +39,7 @@ void loop(){
     
   }
   
-  if (millis() - lastMessageTime > disconnectTimeout)){
+  if (millis() - lastMessageTime > disconnectTimeout){
     alarmOn == true;
     Serial.print('X');
   }   
