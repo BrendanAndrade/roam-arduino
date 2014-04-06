@@ -1,9 +1,9 @@
-const byte soundPin = 11;
-const byte vibePin = 13;
+const byte soundPin = 6;
+const byte vibePin = 5;
 const byte buttonPin = 2;
 
 const int alarmPeriod = 500; //Period of alarm pulses in ms
-const int soundFreq = 2000; //Frequency of sound
+const int soundFreq = 2170; //Frequency of sound
 
 boolean alarmHIGH = true;
 boolean warnHIGH = true;
