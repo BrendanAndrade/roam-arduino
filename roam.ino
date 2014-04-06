@@ -11,7 +11,7 @@ unsigned long lastAlarmTime;
 unsigned long lastWarnTime;
 
 unsigned long lastMessageTime;
-const unsigned long disconnectTimeout = 1000; // ms
+const unsigned long disconnectTimeout = 4000; // ms
 
 volatile boolean pressActive = false; 
 
@@ -34,7 +34,6 @@ void setup(){
   
   aTime = millis();
   
-   nnnnnnn 
 }
 
 void loop(){
